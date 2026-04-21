@@ -85,6 +85,7 @@
       <RootComponent type="1" schemaName="sebmvp_department" behavior="0" />
       <RootComponent type="1" schemaName="sebmvp_maintenancerecord" behavior="0" />
       <RootComponent type="1" schemaName="sebmvp_reminder" behavior="0" />
+      <RootComponent type="300" schemaName="sebmvp_assetmanager_c4a11" behavior="0" />
       <RootComponent type="62" schemaName="sebmvp_Skills" behavior="0" />
       <RootComponent type="80" schemaName="sebmvp_Skills" behavior="0" />
     </RootComponents>

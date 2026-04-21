@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>sebmvp_assetmanager_c4a11</Name>
+  <AppVersion>2026-04-21T10:21:03Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>0.0.0.0</CreatedByClientVersion>
+  <MinClientVersion>0.0.0.0</MinClientVersion>
+  <Tags>{"planId":"","projectId":"69488f4c-61d0-4457-9da2-c53b0d3f6a9f"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(255,255,255,1)</BackgroundColor>
+  <DisplayName>Asset Manager</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"sebmvp_asset":{"entitySetName":"sebmvp_assets","logicalName":"sebmvp_asset"},"sebmvp_category":{"entitySetName":"sebmvp_categories","logicalName":"sebmvp_category"},"sebmvp_department":{"entitySetName":"sebmvp_departments","logicalName":"sebmvp_department"},"sebmvp_assignment":{"entitySetName":"sebmvp_assignments","logicalName":"sebmvp_assignment"},"sebmvp_maintenancerecord":{"entitySetName":"sebmvp_maintenancerecords","logicalName":"sebmvp_maintenancerecord"},"sebmvp_auditlog":{"entitySetName":"sebmvp_auditlogs","logicalName":"sebmvp_auditlog"},"sebmvp_reminder":{"entitySetName":"sebmvp_reminders","logicalName":"sebmvp_reminder"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>4</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"sebmvp_asset","componenttype":1},{"logicalname":"sebmvp_category","componenttype":1},{"logicalname":"sebmvp_department","componenttype":1},{"logicalname":"sebmvp_assignment","componenttype":1},{"logicalname":"sebmvp_maintenancerecord","componenttype":1},{"logicalname":"sebmvp_auditlog","componenttype":1},{"logicalname":"sebmvp_reminder","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <CodeAppPackageUris>
+    <CodeAppPackageUri>/CanvasApps/sebmvp_assetmanager_c4a11_CodeAppPackages/index.html_ContentType_text/html</CodeAppPackageUri>
+    <CodeAppPackageUri>/CanvasApps/sebmvp_assetmanager_c4a11_CodeAppPackages/assets/index-Btl_V7TR.css_ContentType_text/css</CodeAppPackageUri>
+    <CodeAppPackageUri>/CanvasApps/sebmvp_assetmanager_c4a11_CodeAppPackages/assets/index-n1-dBLLu.js_ContentType_application/javascript</CodeAppPackageUri>
+    <CodeAppPackageUri>/CanvasApps/sebmvp_assetmanager_c4a11_CodeAppPackages/favicon.ico_ContentType_image/x-icon</CodeAppPackageUri>
+  </CodeAppPackageUris>
+</CanvasApp>
