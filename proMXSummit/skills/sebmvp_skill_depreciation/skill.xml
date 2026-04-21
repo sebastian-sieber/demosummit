@@ -1,0 +1,29 @@
+<skill uniquename="sebmvp_skill_depreciation">
+  <body># Depreciation Calculation
+
+## Overview
+This skill focuses on the financial valuation of assets over time using the straight-line depreciation method, supporting accurate book value tracking and financial reporting.
+
+## Core Concepts
+- **Straight-Line Method**: Depreciation = (Purchase Value - Salvage Value) / Useful Life
+- **Useful Life**: Configurable per asset category (e.g., Hardware = 3 years, Furniture = 10 years)
+- **Book Value**: Current asset value after accumulated depreciation
+- **Salvage Value**: Estimated residual value at end of useful life
+
+## Key Responsibilities
+- Configure depreciation parameters per asset category
+- Calculate and record periodic depreciation entries
+- Monitor assets approaching full depreciation for disposal or renewal decisions
+- Generate depreciation reports for financial and audit purposes
+
+## Inputs &amp; Outputs
+- **Inputs**: Purchase price, purchase date, useful life, salvage value
+- **Outputs**: Annual depreciation amount, accumulated depreciation, current book value
+
+## Related Entities
+- Asset, Category</body>
+  <description>Ability to apply and manage straight-line depreciation calculations for organizational assets with configurable useful life per asset category.</description>
+  <iscustomizable>1</iscustomizable>
+  <ispersonal>0</ispersonal>
+  <name>Depreciation Calculation</name>
+</skill>

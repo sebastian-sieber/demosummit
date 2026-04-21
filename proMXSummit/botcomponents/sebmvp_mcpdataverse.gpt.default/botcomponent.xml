@@ -1,0 +1,10 @@
+<botcomponent schemaname="sebmvp_mcpdataverse.gpt.default">
+  <componenttype>15</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>MCP Dataverse</name>
+  <parentbotid>
+    <schemaname>sebmvp_mcpdataverse</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

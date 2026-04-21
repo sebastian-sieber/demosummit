@@ -1,0 +1,32 @@
+<skill uniquename="sebmvp_skill_audittrail">
+  <body># Audit Trail Management
+
+## Overview
+This skill ensures that every create, update, and delete operation within the asset management system is logged with full traceability, supporting compliance, forensic investigation, and operational transparency.
+
+## Audit Log Contents
+- **Timestamp**: Exact date and time of the action
+- **Actor**: User who performed the action
+- **Action Type**: Create, Update, Delete, Status Change, Assignment
+- **Entity Affected**: Which record and table was modified
+- **Before/After Values**: Field-level change tracking
+
+## Key Responsibilities
+- Ensure all system events are captured in the AuditLog entity
+- Review audit logs for suspicious or unauthorized activity
+- Generate compliance reports based on audit data
+- Retain audit records per organizational data retention policies
+- Restrict audit log access to Admin role only
+
+## Use Cases
+- Investigating asset discrepancies or missing records
+- Validating compliance with procurement policies
+- Supporting internal and external audits
+
+## Related Entities
+- AuditLog, Asset, User</body>
+  <description>Ability to implement, maintain, and analyze comprehensive audit trails for all asset management system transactions, ensuring accountability and compliance.</description>
+  <iscustomizable>1</iscustomizable>
+  <ispersonal>0</ispersonal>
+  <name>Audit Trail Management</name>
+</skill>

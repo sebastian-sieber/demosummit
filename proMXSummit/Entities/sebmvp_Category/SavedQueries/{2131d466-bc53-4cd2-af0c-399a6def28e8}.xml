@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2131d466-bc53-4cd2-af0c-399a6def28e8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="sebmvp_name" select="1" icon="1" preview="1">
+        <row name="result" id="sebmvp_categoryid">
+          <cell name="sebmvp_name" width="300" />
+          <cell name="sebmvp_description" width="150" />
+          <cell name="sebmvp_icon" width="150" />
+          <cell name="sebmvp_usefullifeyears" width="150" />
+          <cell name="sebmvp_depreciationrate" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="sebmvp_category">
+          <attribute name="sebmvp_categoryid" />
+          <attribute name="sebmvp_name" />
+          <attribute name="createdon" />
+          <order attribute="sebmvp_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="sebmvp_description" />
+          <attribute name="sebmvp_icon" />
+          <attribute name="sebmvp_usefullifeyears" />
+          <attribute name="sebmvp_depreciationrate" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Categories" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

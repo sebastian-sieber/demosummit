@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{8be0b8bc-560e-4d65-8dc4-f12be3916f7e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="sebmvp_name" select="1" icon="1" preview="1">
+        <row name="result" id="sebmvp_reminderid">
+          <cell name="sebmvp_name" width="300" />
+          <cell name="sebmvp_asset" width="150" />
+          <cell name="sebmvp_remindertype" width="150" />
+          <cell name="sebmvp_duedate" width="150" />
+          <cell name="sebmvp_status" width="150" />
+          <cell name="sebmvp_notifyemail" width="150" />
+          <cell name="sebmvp_message" width="150" />
+          <cell name="sebmvp_daysbefore" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="sebmvp_reminder">
+          <attribute name="sebmvp_reminderid" />
+          <attribute name="sebmvp_name" />
+          <attribute name="createdon" />
+          <order attribute="sebmvp_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="sebmvp_asset" />
+          <attribute name="sebmvp_remindertype" />
+          <attribute name="sebmvp_duedate" />
+          <attribute name="sebmvp_status" />
+          <attribute name="sebmvp_notifyemail" />
+          <attribute name="sebmvp_message" />
+          <attribute name="sebmvp_daysbefore" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.202604.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Reminders" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

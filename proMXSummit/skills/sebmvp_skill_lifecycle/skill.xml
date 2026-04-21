@@ -1,0 +1,26 @@
+<skill uniquename="sebmvp_skill_lifecycle">
+  <body># Asset Lifecycle Management
+
+## Overview
+This skill covers end-to-end asset lifecycle management within an organizational context. Practitioners can track and manage assets across every stage of their operational life.
+
+## Lifecycle Stages
+- **Procurement**: Capturing purchase details, vendor info, cost, and acquisition date
+- **Active**: Deploying assets to departments or employees with assignment records
+- **Maintenance**: Scheduling and logging service events to ensure asset health
+- **Depreciation**: Calculating and monitoring asset value over time
+- **Disposal**: Retiring, transferring, or writing off assets at end-of-life
+
+## Key Responsibilities
+- Create and update asset records with accurate status and metadata
+- Transition assets through lifecycle stages based on organizational policies
+- Ensure all status changes are documented with timestamps and actors
+- Coordinate with department managers for asset assignment and retrieval
+
+## Related Entities
+- Asset, Category, Department, Assignment, MaintenanceRecord, AuditLog</body>
+  <description>Ability to manage the full lifecycle of organizational assets from procurement through active use, maintenance, depreciation, and final disposal.</description>
+  <iscustomizable>1</iscustomizable>
+  <ispersonal>0</ispersonal>
+  <name>Asset Lifecycle Management</name>
+</skill>

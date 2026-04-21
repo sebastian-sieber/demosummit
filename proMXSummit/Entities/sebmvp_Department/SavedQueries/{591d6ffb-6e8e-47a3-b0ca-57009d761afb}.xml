@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{591d6ffb-6e8e-47a3-b0ca-57009d761afb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="sebmvp_name" select="1" icon="1" preview="1">
+        <row name="result" id="sebmvp_departmentid">
+          <cell name="sebmvp_name" width="300" />
+          <cell name="sebmvp_description" width="150" />
+          <cell name="sebmvp_managername" width="150" />
+          <cell name="sebmvp_manageremail" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="sebmvp_department">
+          <attribute name="sebmvp_departmentid" />
+          <attribute name="sebmvp_name" />
+          <attribute name="createdon" />
+          <order attribute="sebmvp_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="sebmvp_description" />
+          <attribute name="sebmvp_managername" />
+          <attribute name="sebmvp_manageremail" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Departments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

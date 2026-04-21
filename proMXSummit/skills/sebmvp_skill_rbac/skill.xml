@@ -1,0 +1,38 @@
+<skill uniquename="sebmvp_skill_rbac">
+  <body># Role-Based Access Control
+
+## Overview
+This skill covers the design and administration of role-based access control (RBAC) within the asset management system, ensuring users interact only with data relevant to their responsibilities.
+
+## Defined Roles
+
+### Admin
+- Full system access across all departments
+- Manage user accounts and role assignments
+- Access audit logs and system configuration
+- Perform bulk operations and system exports
+
+### Manager
+- Department-level oversight of assets
+- Approve asset requests from users
+- Access department-scoped reports and analytics
+- Manage assignments within their department
+
+### User
+- View and manage assets within their own department
+- Submit new asset requests
+- View personal assignment records
+
+## Key Responsibilities
+- Assign roles to users based on job function
+- Review and audit role assignments periodically
+- Enforce least-privilege principles across all access levels
+- Manage access changes during onboarding and offboarding
+
+## Related Entities
+- User roles, Department, AuditLog</body>
+  <description>Ability to configure and manage role-based access control for an asset management system, covering Admin, Manager, and User roles with appropriate permission boundaries.</description>
+  <iscustomizable>1</iscustomizable>
+  <ispersonal>0</ispersonal>
+  <name>Role-Based Access Control</name>
+</skill>

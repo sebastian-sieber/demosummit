@@ -1,0 +1,41 @@
+<skill uniquename="sebmvp_skill_bulkops">
+  <body># Bulk Operations and Asset Search
+
+## Overview
+This skill covers the efficient management of large asset datasets through bulk actions and global search capabilities, enabling administrators and managers to make system-wide changes quickly and accurately.
+
+## Global Search
+- Search across all asset fields: name, serial number, category, department, status, assigned user
+- Real-time filtering with multi-field criteria
+- Saved search templates for recurring queries
+- Export search results to CSV or Excel
+
+## Bulk Operations
+
+### Status Updates
+- Select multiple assets and apply a single status transition
+- Validate business rules before applying bulk changes
+- Log all bulk changes in the AuditLog
+
+### Department Transfers
+- Reassign multiple assets to a new department simultaneously
+- Automatically update assignment records with transfer date
+- Notify receiving department managers via Reminder alerts
+
+### Data Exports
+- Export filtered or full asset lists for reporting and backup
+- Support for CSV, Excel, and PDF formats
+
+## Key Responsibilities
+- Execute bulk operations with proper authorization (Admin/Manager)
+- Validate data integrity before and after bulk actions
+- Document bulk operations in audit records
+- Communicate bulk changes to affected stakeholders
+
+## Related Entities
+- Asset, Department, Assignment, AuditLog, Reminder</body>
+  <description>Ability to execute bulk asset operations such as multi-select status updates, department transfers, and data exports, as well as perform global search across all asset fields.</description>
+  <iscustomizable>1</iscustomizable>
+  <ispersonal>0</ispersonal>
+  <name>Bulk Operations and Asset Search</name>
+</skill>

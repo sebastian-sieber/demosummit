@@ -1,0 +1,41 @@
+<skill uniquename="sebmvp_skill_reporting">
+  <body># Asset Reporting and Analytics
+
+## Overview
+This skill enables practitioners to produce actionable insights from asset data, supporting managerial decision-making, financial planning, and operational oversight.
+
+## Report Types
+
+### Inventory Reports
+- Total assets by category, department, and status
+- Assets approaching end-of-life or full depreciation
+- Unassigned or idle assets
+
+### Financial Reports
+- Asset valuation and book value summaries
+- Accumulated depreciation per category
+- Total cost of ownership per department
+
+### Maintenance Reports
+- Upcoming and overdue maintenance schedules
+- Maintenance cost analysis per asset or category
+- Mean time between failures (MTBF) tracking
+
+### Audit and Compliance Reports
+- User activity summaries from audit logs
+- Asset status change history
+- Policy compliance indicators
+
+## Key Responsibilities
+- Design and maintain report templates for recurring use
+- Deliver scheduled reports to Managers and Admins
+- Identify trends and anomalies in asset data
+- Support data exports for external analysis
+
+## Related Entities
+- Asset, Category, Department, MaintenanceRecord, AuditLog</body>
+  <description>Ability to design and generate asset management reports covering inventory summaries, depreciation status, maintenance history, and department-level asset allocations.</description>
+  <iscustomizable>1</iscustomizable>
+  <ispersonal>0</ispersonal>
+  <name>Asset Reporting and Analytics</name>
+</skill>

@@ -1,0 +1,30 @@
+<skill uniquename="sebmvp_skill_deptscoping">
+  <body># Department Scoping and Asset Visibility
+
+## Overview
+This skill governs how asset visibility is partitioned across organizational departments, ensuring that users interact only with assets relevant to their unit while maintaining clear escalation paths for managers and admins.
+
+## Scoping Rules
+- **Users**: See only assets assigned to or located within their department
+- **Managers**: See all assets across their department; can view summary data for adjacent departments
+- **Admins**: Full visibility across all departments and organizational units
+
+## Configuration Tasks
+- Define departments and assign users to them
+- Link assets to departments via the Department entity
+- Configure view filters to enforce department-scoped queries
+- Manage inter-department asset transfers with proper authorization
+
+## Key Responsibilities
+- Maintain accurate department-to-user mappings
+- Ensure asset records carry correct department references
+- Audit cross-department access events
+- Support reorganizations with bulk department reassignments
+
+## Related Entities
+- Department, Asset, Assignment, User</body>
+  <description>Ability to configure and manage department-based data scoping so users see only assets relevant to their organizational unit while admins retain full cross-departmental visibility.</description>
+  <iscustomizable>1</iscustomizable>
+  <ispersonal>0</ispersonal>
+  <name>Department Scoping and Asset Visibility</name>
+</skill>

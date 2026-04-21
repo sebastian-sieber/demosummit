@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{dafc51fc-6b0f-4dff-bacf-d23eef5c78fe}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="sebmvp_name" select="1" icon="1" preview="1">
+        <row name="result" id="sebmvp_assignmentid">
+          <cell name="sebmvp_name" width="300" />
+          <cell name="sebmvp_asset" width="150" />
+          <cell name="sebmvp_department" width="150" />
+          <cell name="sebmvp_assigneename" width="150" />
+          <cell name="sebmvp_assigneeemail" width="150" />
+          <cell name="sebmvp_assigneddate" width="150" />
+          <cell name="sebmvp_returndate" width="150" />
+          <cell name="sebmvp_status" width="150" />
+          <cell name="sebmvp_notes" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="sebmvp_assignment">
+          <attribute name="sebmvp_assignmentid" />
+          <attribute name="sebmvp_name" />
+          <attribute name="createdon" />
+          <order attribute="sebmvp_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="sebmvp_asset" />
+          <attribute name="sebmvp_department" />
+          <attribute name="sebmvp_assigneename" />
+          <attribute name="sebmvp_assigneeemail" />
+          <attribute name="sebmvp_assigneddate" />
+          <attribute name="sebmvp_returndate" />
+          <attribute name="sebmvp_status" />
+          <attribute name="sebmvp_notes" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>0.0.202604.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Assignments" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

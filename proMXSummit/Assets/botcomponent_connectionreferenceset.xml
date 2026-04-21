@@ -1,0 +1,5 @@
+<botcomponent_connectionreferenceset>
+  <botcomponent_connectionreference botcomponentid.schemaname="sebmvp_mcpdataverse.action.MicrosoftDataverse-MicrosoftDataverseMCPServer" connectionreferenceid.connectionreferencelogicalname="sebmvp_mcpdataverse.shared_commondataserviceforapps.69f1316a13cf41b1a9afb67feae7d938">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+</botcomponent_connectionreferenceset>

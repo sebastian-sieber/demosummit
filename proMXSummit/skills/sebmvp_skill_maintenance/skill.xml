@@ -1,0 +1,30 @@
+<skill uniquename="sebmvp_skill_maintenance">
+  <body># Maintenance Scheduling
+
+## Overview
+This skill enables practitioners to plan and oversee preventive and corrective maintenance activities for assets, ensuring optimal performance and reduced downtime.
+
+## Key Activities
+- **Schedule Creation**: Define recurring maintenance intervals (daily, weekly, monthly, annual)
+- **Service Logging**: Record completed maintenance with date, technician, cost, and notes
+- **Automated Reminders**: Configure alerts for upcoming or overdue maintenance
+- **History Review**: Access full service history for any asset
+
+## Maintenance Types
+- **Preventive**: Scheduled routine servicing to prevent failures
+- **Corrective**: Reactive repairs following an incident or malfunction
+- **Warranty Service**: Vendor-managed service within warranty periods
+
+## Key Responsibilities
+- Create and assign maintenance records to assets
+- Set reminder thresholds for upcoming maintenance windows
+- Escalate overdue maintenance to asset owners or managers
+- Analyze maintenance trends to recommend lifecycle decisions
+
+## Related Entities
+- MaintenanceRecord, Asset, Reminder</body>
+  <description>Ability to create, manage, and track recurring maintenance schedules for organizational assets, including automated reminders and service history logging.</description>
+  <iscustomizable>1</iscustomizable>
+  <ispersonal>0</ispersonal>
+  <name>Maintenance Scheduling</name>
+</skill>

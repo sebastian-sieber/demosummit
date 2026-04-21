@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{250e681b-1195-46f2-802c-082f7609896e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="sebmvp_name" select="1" icon="1" preview="1">
+        <row name="result" id="sebmvp_assetid">
+          <cell name="sebmvp_name" width="300" />
+          <cell name="sebmvp_assettag" width="150" />
+          <cell name="sebmvp_description" width="150" />
+          <cell name="sebmvp_category" width="150" />
+          <cell name="sebmvp_status" width="150" />
+          <cell name="sebmvp_serialnumber" width="150" />
+          <cell name="sebmvp_model" width="150" />
+          <cell name="sebmvp_manufacturer" width="150" />
+          <cell name="sebmvp_purchasedate" width="150" />
+          <cell name="sebmvp_purchaseprice" width="150" />
+          <cell name="sebmvp_currentvalue" width="150" />
+          <cell name="sebmvp_warrantyexpiry" width="150" />
+          <cell name="sebmvp_location" width="150" />
+          <cell name="sebmvp_notes" width="150" />
+          <cell name="sebmvp_imageurl" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="sebmvp_asset">
+          <attribute name="sebmvp_assetid" />
+          <attribute name="sebmvp_name" />
+          <attribute name="createdon" />
+          <order attribute="sebmvp_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="sebmvp_assettag" />
+          <attribute name="sebmvp_description" />
+          <attribute name="sebmvp_category" />
+          <attribute name="sebmvp_status" />
+          <attribute name="sebmvp_serialnumber" />
+          <attribute name="sebmvp_model" />
+          <attribute name="sebmvp_manufacturer" />
+          <attribute name="sebmvp_purchasedate" />
+          <attribute name="sebmvp_purchaseprice" />
+          <attribute name="sebmvp_currentvalue" />
+          <attribute name="sebmvp_warrantyexpiry" />
+          <attribute name="sebmvp_location" />
+          <attribute name="sebmvp_notes" />
+          <attribute name="sebmvp_imageurl" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Assets" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
