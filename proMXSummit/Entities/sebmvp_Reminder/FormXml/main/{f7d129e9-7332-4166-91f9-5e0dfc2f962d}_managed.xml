@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f7d129e9-7332-4166-91f9-5e0dfc2f962d}</formid>
+    <IntroducedVersion>0.0.202604.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{c758f681-6328-4312-a73a-0d43cb61c6ad}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{79667436-89c2-46c9-96de-55758373fe49}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{6991b0eb-94f8-413f-bed5-0711d769f7d4}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="sebmvp_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="sebmvp_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2c3863f1-a960-4aec-93e7-e0c856c743aa}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{def55520-27c0-46fc-a494-7126891744f5}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="sebmvp_asset" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="sebmvp_asset" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a8ed4d69-2428-42e7-9052-96774b5b6681}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="sebmvp_remindertype" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="sebmvp_remindertype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{64f01103-4bd1-442f-accb-47dd97d462b3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="sebmvp_duedate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="sebmvp_duedate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{70e96ff5-923d-45da-ba0b-c5824a3d9733}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="sebmvp_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="sebmvp_status" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e9f86be2-0a04-46e3-bc60-378c6460251e}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="sebmvp_notifyemail" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="sebmvp_notifyemail" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b87c8ced-c6f0-40bc-a7ac-2e4c8f3ca0ca}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="sebmvp_message" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="sebmvp_message" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{46f1e883-1067-4a96-82fd-fb404308ffc7}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="sebmvp_daysbefore" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="sebmvp_daysbefore" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
